@@ -1,0 +1,12 @@
+[package]
+name = "DAOSpace-Framework-Starcoin"
+version = "1.0.0"
+
+[addresses]
+StarcoinFramework = "0x1"
+DAOSpaceFramework = "0x2e16bbf024f9ba968e904e4f75e9cf3a"
+
+[dependencies]
+StarcoinFramework = {git = "https://github.com/starcoinorg/starcoin-framework.git", rev="e618173d44fb4e57b8c735cb3eda6844de22d930"}
+
+[dev-dependencies]
